@@ -1,0 +1,19 @@
+Package: prolibr
+Title: Rstudio project library creation
+Version: 1.0
+Authors@R: 
+    person(given = "Dmitrii",
+           family = "Larionov",
+           role = c("aut", "cre"),
+           email = "larionov.dimitrii.s@gmail.com")
+Description: As of now package contains one function which creates project library
+  directory inside Rstudio project directory and makes corresponding modification to
+  project's .Rprofile file. This allows to install additional project specific 
+  packages in project library by default with base command install.packages() 
+  or devtools:: install_* function families when working under Rstudio project. 
+  Thus project specific packages not polluting main library directories.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
