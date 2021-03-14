@@ -11,4 +11,9 @@ default R session startup mechanism through use of .Rprofile file.
 # install.packages("devtools")
 devtools::install_github("Bijection1to1/prolibr")
 ```
+## Usage
 
+``` r
+prolibr::use_project_lib()
+```
+After that R session must be restarted for changes to take effect.
